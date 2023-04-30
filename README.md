@@ -43,4 +43,43 @@ Cloning a temporary table with success:
 
 ![Cloning Table Correctly](https://github.com/MayCooper/Snowflake-SQL-WalmartCommerceDB-AWS-Project/blob/main/Images/Cloning_temp_table_correctly.jpg)
 
+Setting query history to 7 days and other querying. This is to allow looking at hitorical querying and going back in time:
+
+![Historical](https://github.com/MayCooper/Snowflake-SQL-WalmartCommerceDB-AWS-Project/blob/main/Images/Setting_History_to_7_Days.jpg)
+
+Selecting from IN_BETA and IN_PRODUCTION TABLES: 
+
+![In_production](https://github.com/MayCooper/Snowflake-SQL-WalmartCommerceDB-AWS-Project/blob/main/Images/Querying_In_Production_Setting_Data.jpg)
+
+Editing queries:
+
+![Editing queries](https://github.com/MayCooper/Snowflake-SQL-WalmartCommerceDB-AWS-Project/blob/main/Images/Editing_Data.jpg)
+
+Creating views; views do not store data themselves but present data in a structured way:
+
+![Creating Views](https://github.com/MayCooper/Snowflake-SQL-WalmartCommerceDB-AWS-Project/blob/main/Images/Creating_Views.jpg)
+
+Inserting order details:
+
+![Inserting order details](https://github.com/MayCooper/Snowflake-SQL-WalmartCommerceDB-AWS-Project/blob/main/Images/Inserting_Order_Details.jpg)
+
+Query results:
+
+![Query Results](https://github.com/MayCooper/Snowflake-SQL-WalmartCommerceDB-AWS-Project/blob/main/Images/Results.jpg)
+
+Creating more views:
+
+![Creating More views](https://github.com/MayCooper/Snowflake-SQL-WalmartCommerceDB-AWS-Project/blob/main/Images/Creating_more_views.jpg)
+
+Seeing the query map/view where all actions can be seen in the file (unsecured file):
+
+![Querying Map](https://github.com/MayCooper/Snowflake-SQL-WalmartCommerceDB-AWS-Project/blob/main/Images/Querying_Map.jpg)
+
+Creating the security layer for the query map:
+
+![Security Layer](https://github.com/MayCooper/Snowflake-SQL-WalmartCommerceDB-AWS-Project/blob/main/Images/Creating_Security_Layer.jpg)
+
+Queryign map after securing the view with a security layer and seeing that most of the steps are hidden:
+
+![Querying Map After Security](https://github.com/MayCooper/Snowflake-SQL-WalmartCommerceDB-AWS-Project/blob/main/Images/Query_map_after_secure_view.jpg)
 
