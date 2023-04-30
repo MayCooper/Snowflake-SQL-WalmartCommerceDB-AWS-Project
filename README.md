@@ -3,3 +3,4 @@ Creating a Walmart Commerce DB utilizing AWS, Snowflake, SnowSQL CLI, Apache Arr
 
 # Start of project
 
+![Start](https://github.com/MayCooper/Snowflake-SQL-WalmartCommerceDB-AWS-Project/blob/main/Images/Start_Project_Snowflake.jpg)
