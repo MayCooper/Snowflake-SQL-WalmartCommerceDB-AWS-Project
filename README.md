@@ -79,7 +79,49 @@ Creating the security layer for the query map:
 
 ![Security Layer](https://github.com/MayCooper/Snowflake-SQL-WalmartCommerceDB-AWS-Project/blob/main/Images/Creating_Security_Layer.jpg)
 
-Queryign map after securing the view with a security layer and seeing that most of the steps are hidden:
+Queryign map after securing the view with a security layer and seeing that most of the steps are hidden. After secure view, very little information is shown to us, showing that the security query did in fact work:
 
 ![Querying Map After Security](https://github.com/MayCooper/Snowflake-SQL-WalmartCommerceDB-AWS-Project/blob/main/Images/Query_map_after_secure_view.jpg)
 
+Creating a new database:
+
+![Creating New Table](https://github.com/MayCooper/Snowflake-SQL-WalmartCommerceDB-AWS-Project/blob/main/Images/Creating_new_database.jpg)
+
+Sales stage creation in Snowflake CLI, SnowflakeSQL:
+
+![snowflakecli](https://github.com/MayCooper/Snowflake-SQL-WalmartCommerceDB-AWS-Project/blob/main/Images/snowflake_CLI_copying_into.jpg)
+
+Selecting data after copying into table:
+
+![copyinginto](https://github.com/MayCooper/Snowflake-SQL-WalmartCommerceDB-AWS-Project/blob/main/Images/Selecting_data_after_cli.jpg)
+
+Creating clusters:
+
+![Clustering](https://github.com/MayCooper/Snowflake-SQL-WalmartCommerceDB-AWS-Project/blob/main/Images/Clustering.jpg)
+
+Looking at JSON files through Snowlflake to detirmine cardinality for search optimization: 
+
+![JSON](https://github.com/MayCooper/Snowflake-SQL-WalmartCommerceDB-AWS-Project/blob/main/Images/Showing_JSON_table_In_Snowflake.jpg)
+
+Creating Search Optimization after using the cardinality data:
+
+![Search optimization]()
+
+Seeing the timing it takes for a search optimization query for this particular query/dataset vs clustered table:
+Search Optimization Timing:
+![search optimization timing](https://github.com/MayCooper/Snowflake-SQL-WalmartCommerceDB-AWS-Project/blob/main/Images/Search_Optimization_Timing_Query.jpg)
+
+Clustered Timing:
+![clustered table timing](https://github.com/MayCooper/Snowflake-SQL-WalmartCommerceDB-AWS-Project/blob/main/Images/Clustered_table_timing.jpg)
+
+Bringing in semi-structured data: 
+
+![semi-structured data](https://github.com/MayCooper/Snowflake-SQL-WalmartCommerceDB-AWS-Project/blob/main/Images/Bringing_semi-structured_data.jpg)
+
+Using Apache Arrow and Python to convert csv to compressed parquet data to use in Snowflake:
+
+![converting csv with apache arrow](https://github.com/MayCooper/Snowflake-SQL-WalmartCommerceDB-AWS-Project/blob/main/Images/Converting_CSV_with_Apache_Arrow.jpg)
+
+Using parquet format:
+
+![parquet format]()
