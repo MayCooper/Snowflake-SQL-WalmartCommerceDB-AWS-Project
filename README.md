@@ -1,5 +1,13 @@
 # Snowflake-SQL-WalmartCommerceDB-AWS-Project
-Creating a Walmart Commerce DB utilizing AWS, Snowflake, SnowSQL CLI, Apache Arrow, Python, ingesting Parquet &amp; JSON data, and creating Materialized Views, Search Optimization, Transient Tables, Clustering, Access Control Roles, monitoring and analyzing query performance &amp; more
+Creating a Walmart Commerce DB utilizing AWS, Snowflake, SnowSQL CLI, Apache Arrow, Python, ingesting Parquet &amp; JSON data, and creating Materialized Views, Search Optimization, Transient Tables, Clustering, Access Control Roles/Privelages, monitoring and analyzing query performance &amp; more
+
+The project involves building a Walmart Commerce database using a variety of technologies including AWS, Snowflake, SnowSQL CLI, Apache Arrow, and Python. The data will be ingested from both Parquet and JSON formats.
+
+Several advanced features will be utilized to optimize the database's performance and functionality. This includes the creation of Materialized Views, which will allow for faster query results by pre-computing frequently used data. Search Optimization will also be implemented to improve search performance. Transient Tables will be used for storing temporary data, while Clustering will help to organize and partition data for improved query performance.
+
+Access Control Roles will also be configured to manage user permissions and ensure data security. Other features such as Query Profiling and Query History will be used to monitor and analyze query performance.
+
+The end result will be a robust and efficient database that can handle large amounts of data and provide quick and accurate query results.
 
 # Start of project
 
@@ -105,7 +113,7 @@ Looking at JSON files through Snowlflake to detirmine cardinality for search opt
 
 Creating Search Optimization after using the cardinality data:
 
-![Search optimization]()
+![Search optimization](https://github.com/MayCooper/Snowflake-SQL-WalmartCommerceDB-AWS-Project/blob/main/Images/Search_Optimization.jpg)
 
 Seeing the timing it takes for a search optimization query for this particular query/dataset vs clustered table:
 Search Optimization Timing:
@@ -122,6 +130,37 @@ Using Apache Arrow and Python to convert csv to compressed parquet data to use i
 
 ![converting csv with apache arrow](https://github.com/MayCooper/Snowflake-SQL-WalmartCommerceDB-AWS-Project/blob/main/Images/Converting_CSV_with_Apache_Arrow.jpg)
 
+Snowsql creating databases:
+
+![snowsql](https://github.com/MayCooper/Snowflake-SQL-WalmartCommerceDB-AWS-Project/blob/main/Images/snowsql.jpg)
+
 Using parquet format:
 
-![parquet format]()
+![parquet format](https://github.com/MayCooper/Snowflake-SQL-WalmartCommerceDB-AWS-Project/blob/main/Images/parquet_format_snowsql.jpg)
+
+Ingesting parquet with SnowSQL:
+
+![Ingesting parquet format](https://github.com/MayCooper/Snowflake-SQL-WalmartCommerceDB-AWS-Project/blob/main/Images/Ingesting_JSON_data.jpg)
+![Ingesting parquet 2](https://github.com/MayCooper/Snowflake-SQL-WalmartCommerceDB-AWS-Project/blob/main/Images/Ingesting_JSON_Snowsql_second%20stage.jpg)
+
+Querying the JSON data:
+
+![JSON data](https://github.com/MayCooper/Snowflake-SQL-WalmartCommerceDB-AWS-Project/blob/main/Images/Selecting_JSON_Data.jpg)
+
+JSON cardinality:
+
+![JSON cardinality](https://github.com/MayCooper/Snowflake-SQL-WalmartCommerceDB-AWS-Project/blob/main/Images/JSON_cardinality.jpg)
+
+Get restaurant ratings query:
+
+![restaurant ratings](https://github.com/MayCooper/Snowflake-SQL-WalmartCommerceDB-AWS-Project/blob/main/Images/Getting_Restaurant_Ratings.jpg)
+
+More complex queries specifying datatype:
+
+![Complex queries](https://github.com/MayCooper/Snowflake-SQL-WalmartCommerceDB-AWS-Project/blob/main/Images/complex_queries.jpg)
+
+Creating and specifying roles and privileges 
+
+![Roles](https://github.com/MayCooper/Snowflake-SQL-WalmartCommerceDB-AWS-Project/blob/main/Images/Roles.jpg)
+
+![Privileges](https://github.com/MayCooper/Snowflake-SQL-WalmartCommerceDB-AWS-Project/blob/main/Images/Granting_Access_Privileges.jpg)
